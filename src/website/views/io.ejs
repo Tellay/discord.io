@@ -1,0 +1,37 @@
+<%- include('./components/header.ejs') %>
+<head>
+    <link rel="stylesheet" href="/css/io.css">
+</head>
+<body>
+    <main>
+        <form action="/io" method="post" class="search-container">
+            <input type="text" placeholder="Give me an id..." name="ID">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        
+        <div class="container">
+            <a href="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.webp?size=2048"><img src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.webp?size=2048" alt="<%= user.username %>#<%= user.discriminator %>"></a>
+            <div class="info">
+                <p style="color: rgb(49, 162, 255);">
+                    <i class="fas fa-user"></i>
+                    <b>ID:</b> <%= user.id %>
+                </p>
+
+                <p style="color: rgb(243, 130, 96);">
+                    <i class="fas fa-hashtag"></i>
+                    <b>Username:</b> <%= user.username %>#<%= user.discriminator %>
+                </p>
+
+                <p style="color: rgb(105, 180, 56);">
+                    <i class="fas fa-calendar-day"></i>
+                    <b>Created:</b> <%= createdAt %>
+                </p>
+
+                <p style="color: rgb(255, 98, 98);">
+                    <i class="fas fa-robot"></i>
+                    <b>Client:</b> <%= user.bot === true ? 'Yes' : 'No' %>
+                </p>
+            </div>
+        </div>  
+    </main>
+</body>
