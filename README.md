@@ -1,7 +1,6 @@
-This is a simple website that allows you to see the user's information by the id.
---------------------------
+## This is a simple website that allows you to see the user's information by the id.
 
-# Installation
+## Installation
 - Node is required.
 - Clone this repository and open.
 - Use npm install in the terminal.
