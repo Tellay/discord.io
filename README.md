@@ -1,5 +1,5 @@
 discord.io </br>
-This is a simple website that allows you to see the user's information by the id.
+**This is a simple website that allows you to see the user's information by the id.**
 
 ## Installation
 - Node is required.
