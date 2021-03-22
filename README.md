@@ -7,9 +7,7 @@ discord.io
 - Use npm install in the terminal.
 - Create a file whose name is .env and make it look like what is in below but with your information.
 - Run it.
-
---------------------------
-
+- 
 ```
 PREFIX=Your bot prefix.
 ID=Your bot id.
