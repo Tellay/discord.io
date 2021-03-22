@@ -7,7 +7,7 @@ discord.io </br>
 - Use npm install in the terminal.
 - Create a file whose name is .env and make it look like what is in below but with your information.
 - Run it.
-
+- You are free to improve this.
 ```
 PREFIX=Your bot prefix.
 ID=Your bot id.
@@ -15,8 +15,5 @@ TOKEN=Your bot token.
 DISCORD_ENDPOINT=https://discord.com/api/v8
 PORT=Your port.
 ```
-------
-
-You are free to improve this...
 
 <img src="https://i.imgur.com/PPCS9re.gif">
