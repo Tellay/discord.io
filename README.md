@@ -16,4 +16,4 @@ DISCORD_ENDPOINT=https://discord.com/api/v8
 PORT=Your port.
 ```
 
-<img src="https://i.imgur.com/PPCS9re.gif">
+<img src="https://i.imgur.com/MInTIli.gif">
