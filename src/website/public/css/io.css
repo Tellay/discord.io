@@ -30,7 +30,7 @@ main>.container {
     position: relative;
 }
 
-main>.container>a>img {
+main>.container img {
     display: flex;
     justify-content: center;
     max-width: 120px;
@@ -41,9 +41,10 @@ main>.container>a>img {
     transition: 0.3s ease;
     margin-top: 2.5rem;
     border: 0.3rem solid rgba(187, 187, 187, 0.335);
+    object-fit: cover;
 }
 
-main>.container>a>img:hover {
+main>.container img:hover {
     border-radius: 30%;
 }
 
@@ -53,7 +54,7 @@ main>.container>.info {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 3.5rem;
-    margin-left: 3.5rem;
+    margin-left: 3.4rem;
 }
 
 main>.search-container {

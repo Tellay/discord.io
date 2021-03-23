@@ -12,6 +12,7 @@ router.get('/io', async (req, res) => {
 router.post('/io', async (req, res) => {
     const { ID } = req.body;
     const User = await req.bot.users.fetch(ID).catch(err => res.redirect('/'));
+    console.log(User.avatar);
     res.render('io.ejs', { user: User, createdAt: moment(User.createdTimestamp).format('l') });
 })
 
