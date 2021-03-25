@@ -31,5 +31,5 @@ module.exports.load = client => {
     );
 
     app.use('/', require('./routes/index'));
-    app.listen(PORT, () => console.log(`Dashboard is now listening at port ${PORT}!`));
+    app.listen(PORT, () => console.log(`Website is now listening at port ${PORT}!`));
 }
